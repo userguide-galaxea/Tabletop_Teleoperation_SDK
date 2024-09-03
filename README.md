@@ -1,5 +1,14 @@
 # Tabletop Teleoperation SDK Guide
 
+## Software Dependency
+
+1. Ubuntu 20.04 LTS
+2. ROS Noetic
+
+## Installation
+
+The SDK does not require recompilation. Please refer to the contents below.
+
 ## Operation and Control
 
 <u>Important: Before you power on the arms, please set arms at the position and pose shown on the following image.</u>
@@ -20,19 +29,19 @@
     roslaunch signal_arm tabletop_tele_arm_node_left.launch
     ```
 
-   ```shell
+       ```shell
    cd a1_driver_sdk/install
    source setup.bash
    roslaunch signal_arm tabletop_tele_arm_node_right.launch
    ```
 
-   ```shell
+       ```shell
    cd a1_driver_sdk/install
    source setup.bash
    roslaunch mobiman tabletop_tele_mobiman_l.launch
    ```
 
-   ```shell
+       ```shell
    cd a1_driver_sdk/install
    source setup.bash
    roslaunch mobiman tabletop_tele_mobiman_r.launch
